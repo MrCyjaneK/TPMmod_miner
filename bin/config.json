@@ -1,0 +1,77 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "version": 1,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "asm": true,
+        "argon2-impl": null,
+        "argon2": [0, 2, 1, 3],
+        "cn": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-heavy": [
+            [1, 0]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 1],
+            [1, 2]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 2],
+            [2, 1],
+            [2, 3]
+        ],
+        "cn/gpu": [0, 2, 1, 3],
+        "rx": [0, 1],
+        "rx/wow": [0, 1, 2],
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": null,
+            "url": "pool.simpleco.in:2053",
+            "user": "mrcyjanek.16822",
+            "pass": "DOGECOIN_ADD_OF_SOMEBODY",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "print-time": 10,
+    "retries": 50,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "watch": true
+}
